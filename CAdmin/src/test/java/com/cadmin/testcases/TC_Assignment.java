@@ -25,15 +25,16 @@ public void Assignmentt() throws Exception
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
 		obj.refresh();
 		//Asserting the values entered in table
-		WebElement actualElement = driver.findElement(By.xpath("//td[normalize-space()='Bob']"));
-		String actualText = actualElement.getText();
-		String expectedText = "Bob";
-		Assert.assertEquals(expectedText, actualText);
+		WebElement table = driver.findElement(By.id("dynamictable"));       
+		String tableText = table.getText();    // Define the expected data as a String     
+		String expectedData = "Name Age Gender\n" +  "Bob 20 Male\n" +    "George 42 Male\n" +  "Sara 42 Female\n" +  "Conor 40 Male\n" +    "Jennifer 42 Female";         // Compare the expected data with the data in the table     
+        Assert.assertEquals(tableText, expectedData);
+		
 	}
 	catch(Exception e)
 	{
 		logger.info("Not working");
-		 Capturescreenshot(driver, "Assign");
+		Capturescreenshot(driver, "Assign");
 		   
 		   throw(e);
 	}

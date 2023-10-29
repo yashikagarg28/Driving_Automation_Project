@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-05T15:46:52 IST" name="Suite" finished-at="2023-09-05T15:46:52 IST" duration-ms="0">
+  <suite started-at="2023-10-21T17:23:21 IST" name="Default suite" finished-at="2023-10-21T17:23:33 IST" duration-ms="11045">
     <groups>
     </groups>
-  </suite> <!-- Suite -->
+    <test started-at="2023-10-21T17:23:21 IST" name="Default test" finished-at="2023-10-21T17:23:33 IST" duration-ms="11045">
+      <class name="com.cadmin.testcases.TC_Assignment">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.cadmin.testcases.TC_Assignment@62dae540]" started-at="2023-10-21T17:23:21 IST" name="setup" finished-at="2023-10-21T17:23:28 IST" duration-ms="6528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Assignmentt()[pri:0, instance:com.cadmin.testcases.TC_Assignment@62dae540]" started-at="2023-10-21T17:23:28 IST" name="Assignmentt" finished-at="2023-10-21T17:23:29 IST" duration-ms="1240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Assignmentt -->
+        <test-method is-config="true" signature="addResultsToTestRail(org.testng.ITestResult)[pri:0, instance:com.cadmin.testcases.TC_Assignment@62dae540]" started-at="2023-10-21T17:23:29 IST" name="addResultsToTestRail" finished-at="2023-10-21T17:23:31 IST" duration-ms="1399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Assignmentt status=SUCCESS method=TC_Assignment.Assignmentt()[pri:0, instance:com.cadmin.testcases.TC_Assignment@62dae540] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addResultsToTestRail -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.cadmin.testcases.TC_Assignment@62dae540]" started-at="2023-10-21T17:23:31 IST" name="teardown" finished-at="2023-10-21T17:23:33 IST" duration-ms="1827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.cadmin.testcases.TC_Assignment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

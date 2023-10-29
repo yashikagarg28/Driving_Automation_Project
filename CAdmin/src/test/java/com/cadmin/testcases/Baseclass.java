@@ -54,13 +54,13 @@ public class Baseclass {
 		    driver.manage().window().maximize();
 		    logger.info("URL opened properly");
 		    logger.info("Testcase started ");
-			loginindex lg = new loginindex(driver);
-			lg.enterusername("apetrov");
-			lg.enterpassword("Leader@2023");
-			logger.info("Credentials entered");
-			lg.Loginclick();
-			lg.newadmin();	
-			lg.Selectlocationfromhomepage();
+			//loginindex lg = new loginindex(driver);
+			//lg.enterusername("apetrov");
+			//lg.enterpassword("Leader@2023");
+			//logger.info("Credentials entered");
+			//lg.Loginclick();
+			//lg.newadmin();	
+			//lg.Selectlocationfromhomepage();
 	}
      @AfterTest
 	public void teardown()

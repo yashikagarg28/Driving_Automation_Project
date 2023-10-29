@@ -3,15 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.cadmin.testcases.TestCase">
+      <class name="com.cadmin.testcases.TC_Assignment">
         <methods>
           <include name="addResultsToTestRail"/>
+          <include name="Assignmentt"/>
           <include name="setup"/>
-          <include name="classroom"/>
-          <include name="StudentAccount"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- com.cadmin.testcases.TestCase -->
+      </class> <!-- com.cadmin.testcases.TC_Assignment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
